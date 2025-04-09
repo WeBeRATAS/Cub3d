@@ -196,6 +196,9 @@ Si el color no es transparente (necesitas manejar transparencia, a menudo un col
 ## Ray casting
 https://www.youtube.com/watch?v=G9i78WoBBIU
 
+### Colision de rayos DDA Algoritmo
+https://www.youtube.com/watch?v=NbSee-XM7WA
+
 ## Eval controller
 https://github.com/mharriso/school21-checklists/blob/master/ng_2_cub3d.pdf 
 

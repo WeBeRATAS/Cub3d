@@ -193,6 +193,9 @@ Calcular tex_y.
 Obtener el color de la textura del sprite.
 Si el color no es transparente (necesitas manejar transparencia, a menudo un color específico como el rosa 0xFF00FF), dibuja el píxel en (stripe, y) usando my_mlx_pixel_put.
 
+## Ray casting
+https://www.youtube.com/watch?v=G9i78WoBBIU
+
 ##Eval controller
 https://github.com/mharriso/school21-checklists/blob/master/ng_2_cub3d.pdf 
 

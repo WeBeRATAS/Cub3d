@@ -196,7 +196,7 @@ Si el color no es transparente (necesitas manejar transparencia, a menudo un col
 ## Ray casting
 https://www.youtube.com/watch?v=G9i78WoBBIU
 
-##Eval controller
+## Eval controller
 https://github.com/mharriso/school21-checklists/blob/master/ng_2_cub3d.pdf 
 
 

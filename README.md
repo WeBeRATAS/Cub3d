@@ -34,8 +34,7 @@ Cube3d 42
   |-- /minilibx         # La MiniLibX (compilada o como fuente)
   |-- /maps             # Directorio para guardar los mapas de prueba .cub
   |-- Makefile 
-</html></p> ```
-
+</html></p> 
 
 
 ## Secciones de Desarrollo (Plan de Trabajo):
@@ -307,7 +306,7 @@ Calcular tex_y.
 
 Obtener el color de la textura del sprite.
 Si el color no es transparente (necesitas manejar transparencia, a menudo un color específico como el rosa 0xFF00FF), dibuja el píxel en (stripe, y) usando my_mlx_pixel_put.
-
+```
 ## Ray casting
 https://www.youtube.com/watch?v=G9i78WoBBIU
 

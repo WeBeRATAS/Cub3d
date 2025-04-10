@@ -41,13 +41,20 @@ Sección 0: Fundación y Configuración
 ****************************************************
 
 Objetivo: Establecer el entorno de desarrollo básico.
+
 Tareas:
 Configurar el repositorio git.
+
 Crear la estructura de directorios básica.
+
 Configurar el Makefile inicial (compilar Libft, enlazar MiniLibX, compilar main.c).
+
 Crear includes/cub3d.h con include guards y las estructuras iniciales (pueden estar vacías al principio).
+
 Crear srcs/main.c con la estructura básica main(argc, argv).
+
 Implementar una función centralizada de errores en srcs/utils/error.c (ej. exit_error("Mensaje descriptivo", optional_details) que limpie memoria si es necesario antes de salir).
+
 
 Sección 1: Parsing y Validación del Fichero .cub
 *****************************************************

@@ -2,37 +2,42 @@
 Cube3d 42
 
 ## Estructura basica de archivos del proyecto
-/cub3d
-|-- /srcs             # Código fuente .c
-|   |-- main.c
-|   |-- parsing/
-|   |   |-- parse_scene.c
-|   |   |-- parse_map.c
-|   |   |-- parse_utils.c
-|   |   |-- validation.c
-|   |   |-- validation_utils.c
-|   |-- rendering/
-|   |   |-- raycasting.c
-|   |   |-- textures.c
-|   |   |-- drawing.c
-|   |   |-- floor_ceiling.c # (Opcional, si se hace texturizado)
-|   |-- player/
-|   |   |-- movement.c
-|   |   |-- rotation.c
-|   |-- mlx_setup/
-|   |   |-- window.c
-|   |   |-- hooks.c         # Gestión de eventos (teclado, cierre)
-|   |-- utils/
-|   |   |-- memory.c        # Funciones seguras de malloc/free (opcional)
-|   |   |-- error.c         # Gestión centralizada de errores
-|   |   |-- string_utils.c  # Funciones útiles para strings (split, etc.)
-|   |   |-- math_utils.c    # Funciones matemáticas (grados a radianes, etc.)
-|-- /includes         # Archivos de cabecera .h
-|   |-- cub3d.h         # Cabecera principal con estructuras y prototipos
-|-- /libft            # Tu librería Libft (como submódulo git o copiada)
-|-- /minilibx         # La MiniLibX (compilada o como fuente)
-|-- /maps             # Directorio para guardar los mapas de prueba .cub
-|-- Makefile
+
+<html><p>
+  
+  ```/cub3d
+  |-- /srcs             # Código fuente .c
+  |   |-- main.c
+  |   |-- parsing/
+  |   |   |-- parse_scene.c
+  |   |   |-- parse_map.c
+  |   |   |-- parse_utils.c
+  |   |   |-- validation.c
+  |   |   |-- validation_utils.c
+  |   |-- rendering/
+  |   |   |-- raycasting.c
+  |   |   |-- textures.c
+  |   |   |-- drawing.c
+  |   |   |-- floor_ceiling.c # (Opcional, si se hace texturizado)
+  |   |-- player/
+  |   |   |-- movement.c
+  |   |   |-- rotation.c
+  |   |-- mlx_setup/
+  |   |   |-- window.c
+  |   |   |-- hooks.c         # Gestión de eventos (teclado, cierre)
+  |   |-- utils/
+  |   |   |-- memory.c        # Funciones seguras de malloc/free (opcional)
+  |   |   |-- error.c         # Gestión centralizada de errores
+  |   |   |-- string_utils.c  # Funciones útiles para strings (split, etc.)
+  |   |   |-- math_utils.c    # Funciones matemáticas (grados a radianes, etc.)
+  |-- /includes         # Archivos de cabecera .h
+  |   |-- cub3d.h         # Cabecera principal con estructuras y prototipos
+  |-- /libft            # Tu librería Libft (como submódulo git o copiada)
+  |-- /minilibx         # La MiniLibX (compilada o como fuente)
+  |-- /maps             # Directorio para guardar los mapas de prueba .cub
+  |-- Makefile 
+</html></p> ```
+
 
 
 ## Secciones de Desarrollo (Plan de Trabajo):

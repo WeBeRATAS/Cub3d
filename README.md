@@ -1,5 +1,5 @@
-# Cube3d
-Cube3d 42
+# Cub3d
+Cub3d 42
 
 ## Estructura basica de archivos del proyecto
 

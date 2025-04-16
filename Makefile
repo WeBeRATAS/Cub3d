@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rbuitrag <rbuitrag@student.42barcelon      +#+  +:+       +#+         #
+#    By: rbuitrag <rbuitrag@student.42barcelona.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/10 12:06:04 by rbuitrag          #+#    #+#              #
-#    Updated: 2025/04/15 12:35:31 by rbuitrag         ###   ########.fr        #
+#    Updated: 2025/04/16 10:26:31 by rbuitrag         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,13 @@ MLX_A = inc/minilibx/libmlx_Linux.a
 CFLAGS = -Wall -Werror -Wextra  -g #-fsanitize=address -fsanitize=leak
 
 CFILES =	main.c \
-
+			parsing/map_list.c \
+			parsing/parser_scene.c \
+			parsing/parsing_utils.c \
+			parsing/parsing_utils2.c \
+			parsing/validation.c \
+			
+		
 GREEN = "\033[92m"
 RESET = "\033[0m"
 

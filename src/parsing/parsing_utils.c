@@ -6,14 +6,13 @@
 /*   By: rbuitrag <rbuitrag@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 13:25:02 by rbuitrag          #+#    #+#             */
-/*   Updated: 2025/04/15 13:29:29 by rbuitrag         ###   ########.fr       */
+/*   Updated: 2025/04/16 10:33:31 by rbuitrag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/cub3d.h"
+#include "../../inc/cub3d.h"
 
-// parse_utils_1.c
-int	is_empty_line(char *line)
+static int	is_empty_line(char *line)
 {
 	while (*line)
 	{
@@ -24,7 +23,7 @@ int	is_empty_line(char *line)
 	return (1);
 }
 
-int	is_config_identifier(const char *id)
+static int	is_config_identifier(const char *id)
 {
 	static const char	*valid[] = {
 		"R", "NO", "SO", "WE", "EA", "F", "C", NULL
@@ -53,7 +52,6 @@ int	is_map_line(char *line, char **tokens)
 	(void)line;
 	return (1);
 }
-// parse_utils_2.c
 int	add_map_line(char *line, t_list **map_list)
 {
 	char	*trimmed;
@@ -70,14 +68,4 @@ int	add_map_line(char *line, t_list **map_list)
 	}
 	ft_lstadd_back(map_list, new_node);
 	return (SUCCESS);
-}
-
-void	process_map_data(t_list **map_list, t_config *config)
-{
-	if (!config->map.grid)
-		exit_error("Map error", "No map found", NULL);
-	if (validate_map(&config->map) == ERROR)
-		exit_error("Map validation failed", NULL, NULL);
-	if (config->player.found != 1)
-		exit_error("Map error", "Invalid player found", NULL);
 }
